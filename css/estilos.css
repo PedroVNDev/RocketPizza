@@ -10,7 +10,7 @@ body {
 	background-image: url("https://i.stack.imgur.com/cGIFX.jpg");
 }
 
-h1{
+h1 {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: white;
 	font-size: 100px;
@@ -31,8 +31,18 @@ h2 {
 	padding-right: 10%;
 }
 
-.margensection{
+.margensection {
 	margin-top: 5%;
+}
+
+header ul {
+	list-style: none;
+	float: right;
+	margin-top: 7%;
+}
+
+header ul li {
+	display: inline-block;
 }
 
 a {
@@ -45,8 +55,8 @@ header {
 }
 
 header img {
-	padding: 30px;
-	width: 20%;
+	padding: 20px;
+	width: 15%;
 }
 
 div {
@@ -57,26 +67,26 @@ div {
 .row {
 	display: flex;
 	flex-direction: row;
-	position: relative;
 }
 
+.row2 {
+	display: flex;
+	flex-direction: row;
+}
 .contenedor {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
 }
 
-.contenedor2{
-	width: 85%;
+.contenedor2 {
+	max-width: 100%;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 5%;
 }
 
 nav {
-	position: absolute;
-	bottom: 5px;
-	right: 10px;
 	margin-bottom: 2%;
 	font-size: 24px;
 }
@@ -105,7 +115,7 @@ section>div>img {
 	width: 80%;
 }
 
-.margenpres{
+.margenpres {
 	margin-top: 3%;
 }
 
@@ -114,13 +124,13 @@ footer {
 	border-top: 10px solid red;
 }
 
-.iconos{
+.iconos {
 	width: 150px;
 	padding: 15px;
 	margin: 25%;
 }
 
-.pfooter{
+.pfooter {
 	font-size: 30px;
 	color: white;
 	margin: auto;
@@ -130,37 +140,37 @@ footer {
 	align-items: center;
 }
 
-.imagendesc{
+.imagendesc {
 	border: 5px solid white;
 	width: 90%;
 	height: 90%;
 }
 
-.h2desc{
+.h2desc {
 	font-size: 60px;
 	text-align: center;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
-.descripcion{
+.descripcion {
 	color: white;
 	font-size: 24px;
 }
 
-.imagendesc2{
+.imagendesc2 {
 	width: 50%;
 	height: 50%;
 	margin-top: 5%;
 	border: 5px solid white;
 }
 
-.sizeprueba{
+.sizeprueba {
 	width: 80%;
 	margin: auto;
 }
 
-.imagenracion{
+.imagenracion {
 	border: 5px solid white;
 	width: 90%;
 	height: 260px;
@@ -173,19 +183,19 @@ footer {
 	border: 5px solid red;
 }
 
-.h2final{
+.h2final {
 	text-align: center;
 	margin-bottom: 5%;
 }
 
-.imagennosotros{
+.imagennosotros {
 	border: 5px solid white;
 	width: 70%;
 	height: 350px;
 	transition: 500ms;
 }
 
-.h1nosotros{
+.h1nosotros {
 	font-family: "Arial Black", Gadget, sans-serif;
 	color: white;
 	font-size: 50px;
@@ -195,13 +205,13 @@ footer {
 	text-align: center;
 }
 
-.logoformulario{
+.logoformulario {
 	margin: auto;
 	width: auto;
 	margin-top: 20%;
 }
 
-.formulario{
+.formulario {
 	width: 100%;
 	background-color: black;
 	border: 5px solid white;
@@ -209,7 +219,7 @@ footer {
 	margin-bottom: 10%;
 }
 
-.tituloformulario{
+.tituloformulario {
 	text-align: center;
 	color: white;
 	font-size: 24px;
@@ -218,7 +228,7 @@ footer {
 	margin-bottom: 5%;
 }
 
-.campoformulario{
+.campoformulario {
 	text-align: left;
 	font-size: 24px;
 	color: cyan;
@@ -226,22 +236,21 @@ footer {
 	margin-bottom: 30px;
 }
 
-.campovacioformulario{
+.campovacioformulario {
 	width: 100%;
 }
 
-.textarea{
+.textarea {
 	width: 95%;
 }
 
-.botonformulario{
+.botonformulario {
 	text-align: center;
 	width: 50%;
 	height: 50px;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
-
 
 [class^="col-"] {
 	padding: 15px;
@@ -255,7 +264,7 @@ footer {
 	width: 16.66%;
 }
 
-.col-3{
+.col-3 {
 	width: 33%;
 }
 
@@ -295,47 +304,108 @@ footer {
 	width: 100%;
 }
 
-@media (min-width: 576px) { 
-
-	body{
+@media (max-width: 576px) {
+	body {
 		background-color: red;
 	}
-
-	nav a {
-		font-size: 12px;
+	h2 {
+		font-size: 11px;
+		text-shadow: 0px -1px 0px #08FFF9, 0px 1px 0px #FF0000;
+		margin-bottom: 15%;
+		margin-top: 15%;
+		padding-left: 10%;
+		padding-right: 10%;
 	}
-
-}
-
-@media (min-width: 768px) { 
-
-	body{
-		background-color: blue;
+	
+	header {
+		background-image: url("https://mir-cdn.behance.net/v1/assets//b5048ec0ed7154a1218c46a7ebf9b2e2/7e4e6471-0152-4480-a254-e417a3a00db3_rwc_0x232x1920x265x1920.jpg?h=3428a456c95396a445a3e0a606f91102");
+		border-bottom: 5px solid red;
+		width: 100%;
 	}
-
-}
-
-@media (min-width: 992px) { 
-
-	body{
-		background-color: green;
+	header ul li {
+		display: block;
 	}
-
-}
-
-@media (min-width: 1200px) {  
-
-	body{
-		background-color: purple;
+	header ul {
+		margin-top: 0px;
 	}
-
+	header img {
+		padding: 20px;
+		width: 50%;
+	}
 	nav a {
 		font-family: "Arial Black", Gadget, sans-serif;
-		font-size: 25px;
-		margin: 0 15px;
+		font-size: 10px;
 		color: white;
-		text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
-		transition: 500ms;
+		text-shadow: 0px -1px 0px #08FFF9, 0px 1px 0px #FF0000;
+	}
+	section>div>img {
+		width: 50%;
+		height: 30%;
 	}
 
+	.margenpres{
+		margin-top: 0px;
+	}
+
+	.imagenPres {
+		border: 3px solid white;
+		width: 90%;
+		height: 100px;
+	}
+
+	.h2desc {
+		font-size: 20px;
+		text-align: center;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	}
+
+	.row2{
+		display: block;
+	}
+
+	.col-6{
+		width: 100%;
+	}
+
+	.imagendesc {
+		border: 3px solid white;
+		width: 60%;
+		height: 130px;
+	}
+	.descripcion {
+		font-size: 11px;
+	}
+	.imagendesc2 {
+		width: 30%;
+		height: 40%;
+		margin-top: 5%;
+		border: 3px solid white;
+	}
+	.iconos {
+		width: 40px;
+		padding: 10px;
+		margin: 15%;
+	}
+	.pfooter {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		background-color: blue;
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+		background-color: green;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		background-color: purple;
+	}
 }
