@@ -1,0 +1,341 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-image: url("https://i.stack.imgur.com/cGIFX.jpg");
+}
+
+h1{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white;
+	font-size: 100px;
+	text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.margensection{
+	margin-top: 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	background-image: url("https://mir-cdn.behance.net/v1/assets//b5048ec0ed7154a1218c46a7ebf9b2e2/7e4e6471-0152-4480-a254-e417a3a00db3_rwc_0x232x1920x265x1920.jpg?h=3428a456c95396a445a3e0a606f91102");
+	border-bottom: 10px solid red;
+}
+
+header img {
+	padding: 30px;
+	width: 20%;
+}
+
+div {
+	text-align: center;
+	align-items: center;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.contenedor {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.contenedor2{
+	width: 85%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+}
+
+nav {
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	margin-bottom: 2%;
+	font-size: 24px;
+}
+
+nav a {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	margin: 0 15px;
+	color: white;
+	text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
+	transition: 500ms;
+}
+
+nav a:hover {
+	text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px rgb(255, 0, 242);
+	padding: 10px;
+}
+
+section>div>img {
+	width: 50%;
+	height: 50%;
+}
+
+.imagenPres {
+	border: 5px solid white;
+	width: 80%;
+}
+
+.margenpres{
+	margin-top: 3%;
+}
+
+footer {
+	background-image: url("https://mir-cdn.behance.net/v1/assets//b5048ec0ed7154a1218c46a7ebf9b2e2/7e4e6471-0152-4480-a254-e417a3a00db3_rwc_0x232x1920x265x1920.jpg?h=3428a456c95396a445a3e0a606f91102");
+	border-top: 10px solid red;
+}
+
+.iconos{
+	width: 150px;
+	padding: 15px;
+	margin: 25%;
+}
+
+.pfooter{
+	font-size: 30px;
+	color: white;
+	margin: auto;
+}
+
+.centrar-v {
+	align-items: center;
+}
+
+.imagendesc{
+	border: 5px solid white;
+	width: 90%;
+	height: 90%;
+}
+
+.h2desc{
+	font-size: 60px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.descripcion{
+	color: white;
+	font-size: 24px;
+}
+
+.imagendesc2{
+	width: 50%;
+	height: 50%;
+	margin-top: 5%;
+	border: 5px solid white;
+}
+
+.sizeprueba{
+	width: 80%;
+	margin: auto;
+}
+
+.imagenracion{
+	border: 5px solid white;
+	width: 90%;
+	height: 260px;
+	transition: 500ms;
+}
+
+.imagenracion:hover {
+	width: 95%;
+	height: 280px;
+	border: 5px solid red;
+}
+
+.h2final{
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+.imagennosotros{
+	border: 5px solid white;
+	width: 70%;
+	height: 350px;
+	transition: 500ms;
+}
+
+.h1nosotros{
+	font-family: "Arial Black", Gadget, sans-serif;
+	color: white;
+	font-size: 50px;
+	text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.logoformulario{
+	margin: auto;
+	width: auto;
+	margin-top: 20%;
+}
+
+.formulario{
+	width: 100%;
+	background-color: black;
+	border: 5px solid white;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.tituloformulario{
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: 15px;
+	margin-bottom: 5%;
+}
+
+.campoformulario{
+	text-align: left;
+	font-size: 24px;
+	color: cyan;
+	margin: 10px;
+	margin-bottom: 30px;
+}
+
+.campovacioformulario{
+	width: 100%;
+}
+
+.textarea{
+	width: 95%;
+}
+
+.botonformulario{
+	text-align: center;
+	width: 50%;
+	height: 50px;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+
+[class^="col-"] {
+	padding: 15px;
+}
+
+.col-1 {
+	width: 8.33%;
+}
+
+.col-2 {
+	width: 16.66%;
+}
+
+.col-3{
+	width: 33%;
+}
+
+.col-4 {
+	width: 33.33%;
+}
+
+.col-5 {
+	width: 41.66%;
+}
+
+.col-6 {
+	width: 50%;
+}
+
+.col-7 {
+	width: 58.33%;
+}
+
+.col-8 {
+	width: 66.66%;
+}
+
+.col-9 {
+	width: 75%;
+}
+
+.col-10 {
+	width: 83.33%;
+}
+
+.col-11 {
+	width: 91.66%;
+}
+
+.col-12 {
+	width: 100%;
+}
+
+@media (min-width: 576px) { 
+
+	body{
+		background-color: red;
+	}
+
+	nav a {
+		font-size: 12px;
+	}
+
+}
+
+@media (min-width: 768px) { 
+
+	body{
+		background-color: blue;
+	}
+
+}
+
+@media (min-width: 992px) { 
+
+	body{
+		background-color: green;
+	}
+
+}
+
+@media (min-width: 1200px) {  
+
+	body{
+		background-color: purple;
+	}
+
+	nav a {
+		font-family: "Arial Black", Gadget, sans-serif;
+		font-size: 25px;
+		margin: 0 15px;
+		color: white;
+		text-shadow: 0px -3px 0px #08FFF9, 0px 3px 0px #FF0000;
+		transition: 500ms;
+	}
+
+}
